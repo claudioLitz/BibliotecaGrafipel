@@ -17,16 +17,14 @@ Entendi que a responsabilidade de "nascer" com as informações corretas pertenc
 
 ---
 
-## 🏛️ Os 4 Pilares da POO
+## 🏛️ Os 3 Pilares da POO + Abstração
 Para criar sistemas escaláveis, Java se baseia em quatro conceitos fundamentais:
 
 ### 1. Abstração
 É o processo de esconder os detalhes complexos e mostrar apenas o essencial. No Java, fazemos isso através de **Interfaces** e **Classes Abstratas**, definindo "o que" o objeto faz, sem necessariamente dizer "como" ele faz.
 
 ### 2. Encapsulamento
-(Citado acima) É a arte de proteger os dados e esconder a implementação interna da classe, expondo apenas o que é estritamente necessário através de métodos públicos.
-
-
+É a arte de proteger os dados e esconder a implementação interna da classe, expondo apenas o que é estritamente necessário através de métodos públicos.
 
 ### 3. Herança
 Permite que uma classe (filha) herde atributos e comportamentos de outra classe (pai). Isso evita a repetição de código e nos permite criar hierarquias lógicas entre os objetos.
@@ -36,4 +34,3 @@ A capacidade de um objeto ser referenciado de várias formas. Graças ao polimor
 
 ---
 
-> "Programar em Java não é apenas escrever código, é desenhar uma arquitetura onde cada peça tem seu lugar e sua responsabilidade."
