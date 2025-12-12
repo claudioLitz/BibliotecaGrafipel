@@ -40,15 +40,15 @@ public class Aplication {
             
             switch (Choose) {
                 case 1:
-                    System.out.print("Please type your name: ");
+                    System.out.print("\n\n\nPlease type your name: ");
                     String name = scanner.next();
                     scanner.nextLine();
 
-                    System.out.print("\nPlease type your age: ");
+                    System.out.print("Please type your age: ");
                     int age = scanner.nextInt();
                     scanner.nextLine();
 
-                    System.out.println("\nPlease type your gender");
+                    System.out.print("Please type your gender: ");
                     String gender = scanner.next();
                     scanner.nextLine();
 
@@ -59,16 +59,16 @@ public class Aplication {
                     break;
 
                 case 2:
-                    System.out.println("Please type the name of author");
+                    System.out.print("\n\n\nPlease type the name of author: ");
                     String author = scanner.next();
                     scanner.nextLine();
 
             
-                    System.out.print("Please type the title:");
+                    System.out.print("Please type the title: ");
                     String title = scanner.next();
                     scanner.nextLine();
 
-                    System.out.println("Please type the total of pages");
+                    System.out.print("Please type the total of pages: ");
                     int totalPage = scanner.nextInt();
                     scanner.nextLine();
 
@@ -105,6 +105,7 @@ public class Aplication {
 
                                         System.out.println("Please type the number of the book you want buy: \nIf you dont is seeing any book, it mean that there's no book to buy");
                                         int c = scanner.nextInt();
+                                        scanner.nextLine();
 
                                         for (int a = 0; a < books.size();a++){
                                             if ((books.get(a).getreader() == null) && (books.get(a).getID() == c)){
@@ -113,10 +114,7 @@ public class Aplication {
                                                         books.get(a).setreader(people.get(l));
                                                     }
                                                 }
-                                            } else{
-                                                System.out.println("This ID dont is available. Try again with another ID!");
-                                                break;
-                                            }
+                                            } 
 
                                         }
                                         
